@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@toronto = Store.create(name: "Toronto")
+@toronto.errors.messages.each { |n| puts "#{n}"}
